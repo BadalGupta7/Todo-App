@@ -47,6 +47,7 @@ const App: React.FC = () => {
     if (filter === "Pending") return !task.completed;
     return true;
   });
+  //HI
 
   return (
     <>
@@ -54,6 +55,7 @@ const App: React.FC = () => {
       <AddTodo addTask={addItem} />
       <FilterTodo setFilter={setFilter} />
       <ListTodo
+
         task={filteredItems}
         editItem={editItem}
         changeCompletion={changeCompletion}
