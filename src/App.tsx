@@ -57,7 +57,8 @@ const App: React.FC = () => {
         task={filteredItems}
         editItem={editItem}
         changeCompletion={changeCompletion}
-        deleteItem={deleteItem}
+        deleteItem={deleteItem} 
+        
       />
     </>
   );
